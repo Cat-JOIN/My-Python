@@ -70,12 +70,12 @@
     2.2 接受input存变量
     2.3 input接收到的数据类型都是字符串
 """
-# password = input('请输入您的密码：')
-# print(f"您输入的密码是{password}")
-#
-# print(type(password))
-# # 转换为int(x) -- 整型
-# print(type(int(password)))
+ password = input('请输入您的密码：')
+ print(f"您输入的密码是{password}")
+
+ print(type(password))
+  # 转换为int(x) -- 整型
+ print(type(int(password)))
 
 
 # float() -- 将数据转换为浮点型
