@@ -26,7 +26,7 @@
             3.3.3 remove(数据) -- 移除列表中某个数据的第一个匹配项
             3.3.4 clear() -- 清空列表
         3.4 修改
-            - 修个指定下标数据
+            - 修改指定下标数据
             - 逆置：reverse()
             - 排序：sort() -- 语法：列表序列.sort(key=None, reverse=False) 注：reverse表示排序规则，reverse = True降序， reverse = False升序(默认)
         3.5 复制
