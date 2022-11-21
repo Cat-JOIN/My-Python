@@ -91,6 +91,14 @@ list8 = [1, 1, 2]
 set1 = {i ** 2 for i in list8}
 print(set1)
 
+# 嵌套推导式
+list9 = [
+    [1, 2, 3, 4],
+    [5, 6, 7, 8],
+    [9, 10, 11, 12]
+]
+list10 = [[[row[i] for row in list9] for i in range(4)]
+print(list10)
 """
 总结：
     1.列表推导式
